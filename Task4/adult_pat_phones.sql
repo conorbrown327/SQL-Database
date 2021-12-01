@@ -2,7 +2,7 @@
 -- Author(s): Jacob Sandler
 CREATE TABLE ADULT_PAT_EMAILS (
   PatId BIGINT NOT NULL,
-    APhoneNums MEDIUMTEXT NOT NULL,
+    APhoneNums  BIGINT NOT NULL,
     PRIMARY KEY (PatId, APhoneNums),
     FOREIGN KEY (PatId) REFERENCES PATIENT(PatId)
 )
