@@ -1,4 +1,4 @@
--- Creating table to store a patients allergy information
+-- Creating table to store a patients allergy information and setting up foreign key relation to Visit
 -- Author(s): Conor Brown
 CREATE TABLE ALLERGIES (
 	VisitID BIGINT NOT NULL, 
