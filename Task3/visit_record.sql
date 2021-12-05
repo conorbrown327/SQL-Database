@@ -1,5 +1,5 @@
--- Creating table to store the record for a visit
--- Author(s): Conor Brown
+-- Creating table to store the record for a visit with appropriate attributes, and creating two foreign key relations 
+-- Author(s): Conor Brown, Zane Meyer
 CREATE TABLE VISIT_RECORD (
 	-- change from relationship mapping 
 	-- changed the recorded nurse id to the nurses EID because NID is not a primary key
