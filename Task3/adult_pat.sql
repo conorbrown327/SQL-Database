@@ -1,4 +1,4 @@
--- Creating table to store an adult patient's information
+-- Creating table to store an adult patient's information and setting up foreign key relation
 -- Author(s): Jacob Sandler
 CREATE TABLE ADULT_PAT (
   PatId BIGINT NOT NULL,
