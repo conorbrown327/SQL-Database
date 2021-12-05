@@ -1,5 +1,5 @@
--- Creating table to store information about who diagnosed a patient during a visit
--- Author(s): Conor Brown
+-- Creating table to store information about who diagnosed a patient during a visit, and setting up foreign key relation to Visit_Record and Diagnosis
+-- Author(s): Conor Brown, Zane Meyer
 CREATE TABLE DIAGNOSES (
 	ICD_10_CM BIGINT NOT NULL,
     VisitID BIGINT NOT NULL,
