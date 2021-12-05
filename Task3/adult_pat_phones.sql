@@ -1,4 +1,4 @@
--- Creating table to store an adult patient's phoner numbers
+-- Creating table to store an adult patient's phone numbers  and setting up foreign key relations
 -- Author(s): Jacob Sandler
 CREATE TABLE ADULT_PAT_PHONES (
   PatId BIGINT NOT NULL,
