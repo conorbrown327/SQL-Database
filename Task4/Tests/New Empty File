@@ -1,0 +1,20 @@
+1.	
+2.	
+3.	
+4.	
+5.	
+6.	
+7.	
+8.	
+9.	
+10.	
+11.	
+12.	
+13.	
+14.	
+15.	
+16.	Can a nurse do initial assessments for multiple patients on the same day?  On different days?
+17.	Are we able to review the vitals as defined on the writeup of the patient through queries for a given visit?
+18.	Can service providers request more than one test/procudure per visit?
+19.	Test at least two FKs for the cardinality numbers that are on the design document (your choice of Fks) – do we capture the max numbers for the relations?
+20.	You should have two tests to test two primary keys or other keys.  (your choice of PKs or keys)

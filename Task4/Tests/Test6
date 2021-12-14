@@ -1,8 +1,8 @@
 Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
-  Test Case ID#: 1  Name(s) of Tester(s): 
+  Test Case ID#: 6  Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
-specific): Does your design capture the requirement that all patients under the of 18 must have a parent or guardian in the system?
+specific): Does your design capture the insurance information for an insured patient?  Can you tie the insurance record to a patient if they come in a 2nd time and the insurance has not changed? 
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
