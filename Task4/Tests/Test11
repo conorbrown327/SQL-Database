@@ -11,8 +11,6 @@ Can only service providers make a diagnosis(es)?
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
-dia
-SQL Query(s) used for testing:
 
 ```
 Able to input info outside of the condition therefore proving test is false
@@ -45,4 +43,10 @@ VALUES (278, 18, 38);
 --NURSE
 INSERT INTO DIAGNOSES
 VALUES (278, 12, 22);
+```
+
+SQL Query(s) used for testing:
+
+```
+SQL Query is not needed as the insertion of data proves the test fails
 ```
