@@ -11,6 +11,19 @@ Do initial assessments have the nurse’s information associated with it?  Can w
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
+
+```
+INSERT INTO EMPLOYEE
+VALUES (22, "Jacob", "A", "Sandler", 001020004);
+
+INSERT INTO NURSE
+VALUES (22, 22);
+
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 12, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+```
+
 SQL Query(s) used for testing:
 
 ```
