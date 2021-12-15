@@ -1,0 +1,8 @@
+INSERT INTO PATIENT
+VALUES (2001, "Conor", "A", "Brown", "1600 Pennsylvania Avenue NW, Washington DC 20500", '1999-03-27');
+INSERT INTO ADULT_PAT
+VALUES (2001);
+INSERT INTO GUARDIAN
+VALUES (11, "Morgan", "S", "Brown", "1600 Pennsylvania Avenue NW, Washington DC 20500");
+INSERT INTO ALL_GUARDS
+VALUES(2001, 11);

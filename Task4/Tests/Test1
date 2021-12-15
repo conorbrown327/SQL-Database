@@ -1,10 +1,10 @@
 Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
-  Test Case ID#: 1  Name(s) of Tester(s): 
+  Test Case ID#: 1  Name(s) of Tester(s): Conor Brown
 Test Description (What are you testing? – you must be 
 specific): Does your design capture the requirement that all patients under the of 18 must have a parent or guardian in the system?
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
-here):
-SQL Query(s) used for testing:
+here): test1insert.sql
+SQL Query(s) used for testing: test1query.sql
