@@ -3,8 +3,25 @@ Test Date:  12/14/2021
   Test Case ID#: 12  Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
 specific): Does the system properly document additional tests/procedures with the proper coding?
+
+  -Does the system support the new data if new tests are added properly
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
+
+```
+INSERT INTO EMPLOYEE
+VALUES (22, "Jacob", "A", "Sandler", 001020004);
+
+INSERT INTO NURSE
+VALUES (22, 22);
+
+```
+if trying to add this data for NURSE before it exists in EMPLOYEE, then a error will be shown.
+
 SQL Query(s) used for testing:
+
+```
+no query needed as mysql will show error when new data is added not properly in terms of the format
+```
