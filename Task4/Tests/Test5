@@ -1,10 +1,10 @@
 Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
-  Test Case ID#: 5  Name(s) of Tester(s): 
+  Test Case ID#: 5  Name(s) of Tester(s): Conor Brown
 Test Description (What are you testing? – you must be 
 specific): Can an uninsured patient be in the system without the credit card information being collected first?
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
-here):
-SQL Query(s) used for testing:
+here): testinsert.sql
+SQL Query(s) used for testing: No query necessary. Cannot succesufully input the information proving the test false.
