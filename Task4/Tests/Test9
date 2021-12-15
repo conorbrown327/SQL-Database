@@ -1,6 +1,6 @@
 Project:  New Haven Urgent Care                                 Team20
-Test Date:  12/14/2021
-  Test Case ID#: 9  Name(s) of Tester(s): 
+Test Date:  12/15/2021
+  Test Case ID#: 9  Name(s) of Tester(s): Jacob Sandler
 Test Description (What are you testing? – you must be 
 specific): Can a patient have more than one diagnosis per visit? 
  
@@ -8,3 +8,11 @@ NOTE:  The following information must be provided to be given credit for any tes
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
+INSERT INTO DIAGNOSES
+VALUES (7, 6, 6);
+--SUCCESS
+
+INSERT INTO DIAGNOSES
+VALUES (6, 6, 6);
+--SUCCESS
