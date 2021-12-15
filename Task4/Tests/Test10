@@ -1,6 +1,6 @@
 Project:  New Haven Urgent Care                                 Team20
-Test Date:  12/14/2021
-  Test Case ID#: 10 Name(s) of Tester(s): 
+Test Date:  12/15/2021
+  Test Case ID#: 10 Name(s) of Tester(s): Jacob Sandler
 Test Description (What are you testing? – you must be 
 specific): Does every visit have at least one diagnosis?
  
@@ -8,3 +8,7 @@ NOTE:  The following information must be provided to be given credit for any tes
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
+INSERT INTO VISIT_RECORD
+VALUES (6, 6, 10, "Peanut Allergy", "Nada", 42, 150, "Low", 72);
+-- SUCCESS
