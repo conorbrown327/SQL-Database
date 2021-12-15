@@ -2,9 +2,30 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#: 13  Name(s) of Tester(s):
 Test Description (What are you testing? – you must be 
-specific): Does a visit allow for only one initial assessment to be completed?
+specific): 
+
+Does a visit allow for only one initial assessment to be completed?
+
+  -check if a visit only has one record
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
+
+```
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 12, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 12, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+```
+The insertion of same VisitID will lead to error ERROR 1062 (23000): Duplicate entry 'VisitID' for key 'VISIT_RECORD.PRIMARY'
+therefore the test passed
+
 SQL Query(s) used for testing:
+
+```
+SELECT DISTINCT VisitID
+FROM VISIT_RECORD;
+```
