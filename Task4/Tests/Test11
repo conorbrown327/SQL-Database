@@ -2,9 +2,47 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#: 11 Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
-specific): Can only service providers make a diagnosis(es)?
+specific): 
+
+Can only service providers make a diagnosis(es)?
+
+  - check if only DOCTOR can make a DIAGNOSES
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
+dia
 SQL Query(s) used for testing:
+
+```
+Able to input info outside of the condition therefore proving test is false
+
+INSERT INTO EMPLOYEE
+VALUES (38, "Elon", "D", "Gates", 845120852);
+
+INSERT INTO DOCTOR
+VALUES (38, 38);
+
+INSERT INTO EMPLOYEE
+VALUES (22, "Jacob", "A", "Sandler", 001020004);
+
+INSERT INTO NURSE
+VALUES (22, 22);
+
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 18, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 12, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+INSERT INTO DIAGNOSIS
+VALUES (278, "Depression");
+
+--DOCTOR
+INSERT INTO DIAGNOSES
+VALUES (278, 18, 38);
+
+--NURSE
+INSERT INTO DIAGNOSES
+VALUES (278, 12, 22);
+```
