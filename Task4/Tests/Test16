@@ -2,9 +2,9 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#:  Name(s) of Tester(s): Zane Meyer
 Test Description (What are you testing? – you must be 
-specific):
+specific): Can a nurse do initial assessments for multiple patients on the same day?  On different days?
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
-here):
-SQL Query(s) used for testing:
+here): test16insert.sql
+SQL Query(s) used for testing: test16query.sql

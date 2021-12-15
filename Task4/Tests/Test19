@@ -2,9 +2,14 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#:  Name(s) of Tester(s): Zane Meyer
 Test Description (What are you testing? – you must be 
-specific):
+specific): Test at least two FKs for the cardinality numbers that are on the design document (your choice of Fks) – do we capture the max numbers for the relations?
+
+In my case I chose to test two FKs in the diagnoses relationship:
+- The diagnosis FK ICD_10_CM
+- The Doctor FK of EID.  
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
-here):
-SQL Query(s) used for testing:
+here): test19.1insert.sql, test19.2insert.sql [19.2 errors out on purpose]
+SQL Query(s) used for testing: test19query.sql
+-Success on both
