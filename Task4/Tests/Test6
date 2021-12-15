@@ -1,6 +1,6 @@
 Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
-  Test Case ID#: 6  Name(s) of Tester(s): 
+  Test Case ID#: 6  Name(s) of Tester(s): Jacob Sandler
 Test Description (What are you testing? – you must be 
 specific): Does your design capture the insurance information for an insured patient?  Can you tie the insurance record to a patient if they come in a 2nd time and the insurance has not changed? 
  
@@ -8,3 +8,29 @@ NOTE:  The following information must be provided to be given credit for any tes
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
+INSERT INTO PATIENT
+VALUES (6, "Jake", "A", "Sandler", "725 Placeholder Street, Whoville, WA 55225", '1988-02-14');
+
+INSERT INTO EMPLOYEE
+VALUES (6, "Jake", "X", "Sandler", 555225555);
+
+INSERT INTO NURSE
+VALUES (6, 5000);
+
+INSERT INTO INSURANCE_PROVIDER
+VALUES (6, 6, 30, 6, "Hello World Insurance", 20);
+
+INSERT INTO VISIT_RECORD
+VALUES (6, 6, 6, "Deceased", "Nada", 42, 150, "Low", 72);
+
+INSERT INTO INTAKES
+VALUES (6, 6, 6, 6, 5555777766664444, "2024-11-11", "Jake Sandler", 555, 20.00);
+
+SELECT * FROM PATIENT NATURAL JOIN INSURANCE_PROVIDER;
++-------+-------+-------+---------+--------------------------------------------+------------+-------+---------+----------+-----------------------+-------+
+| PatId | FName | MName | LName   | Address                                    | PatDOB     | InsID | PayerID | GroupNum | CoName                | CoPay |
++-------+-------+-------+---------+--------------------------------------------+------------+-------+---------+----------+-----------------------+-------+
+|     6 | Jake  | A     | Sandler | 725 Placeholder Street, Whoville, WA 55225 | 1988-02-14 |     6 |      30 |        6 | Hello World Insurance |    20 |
++-------+-------+-------+---------+--------------------------------------------+------------+-------+---------+----------+-----------------------+-------+
+-- SUCCESS
