@@ -1,5 +1,5 @@
 Project:  New Haven Urgent Care                                 Team20
-Test Date:  12/14/2021
+Test Date:  12/15/2021
   Test Case ID#: 6  Name(s) of Tester(s): Jacob Sandler
 Test Description (What are you testing? – you must be 
 specific): Does your design capture the insurance information for an insured patient?  Can you tie the insurance record to a patient if they come in a 2nd time and the insurance has not changed? 
