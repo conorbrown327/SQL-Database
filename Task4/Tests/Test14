@@ -11,6 +11,15 @@ Does the system allow the patient to visit the urgent care more than one time?
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
+
+```
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 12, "Sick", "Gone", 0.0, 0.0, "Over 9000", 69);
+
+INSERT INTO VISIT_RECORD
+VALUES (22, 202, 16, "Sick", "Not Well", 0.0, 0.0, "Too High", 69);
+```
+
 SQL Query(s) used for testing:
 
 ```
