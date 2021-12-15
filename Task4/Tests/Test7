@@ -1,5 +1,5 @@
 Project:  New Haven Urgent Care                                 Team20
-Test Date:  12/14/2021
+Test Date:  12/15/2021
   Test Case ID#: 7  Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
 specific): Can a patient be seen by only one service provider per visit?
@@ -8,3 +8,23 @@ NOTE:  The following information must be provided to be given credit for any tes
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
+INSERT INTO DIAGNOSIS
+VALUES (7, "Short");
+
+INSERT INTO DIAGNOSIS
+VALUES (6, "Tall");
+
+INSERT INTO EMPLOYEE
+VALUES (6, "Jake", "X", "Sandler", 555225555);
+
+INSERT INTO VISIT_RECORD
+VALUES (6, 6, 6, "Deceased", "Nada", 42, 150, "Low", 72);
+
+INSERT INTO DIAGNOSES
+VALUES (7, 6, 6);
+-- SUCCESS
+
+INSERT INTO DIAGNOSESERROR 1062 (23000): Duplicate entry '7-6' for key 'DIAGNOSES.PRIMARY'
+VALUES (6, 6, 7);
+-- SUCCESS
