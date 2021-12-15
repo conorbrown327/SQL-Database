@@ -2,9 +2,19 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#: 15  Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
-specific): Do initial assessments have the nurse’s information associated with it?  Can we retrieve the nurse’s information?
+specific): 
+
+Do initial assessments have the nurse’s information associated with it?  Can we retrieve the nurse’s information?
+
+  -Does VISIT_RECORD contains the nurse’s information?
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
+```
+SELECT * 
+FROM NURSE AS N, VISIT_RECORD AS V 
+WHERE N.EID = V.EID;
+```
