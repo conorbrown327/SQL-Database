@@ -8,3 +8,8 @@ NOTE:  The following information must be provided to be given credit for any tes
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+```
+SELECT PatID,COUNT(*) AS Count_Pat
+FROM VISIT_RECORD
+GROUP BY PatID;
+```
