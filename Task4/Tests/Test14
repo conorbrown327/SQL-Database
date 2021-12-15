@@ -2,12 +2,17 @@ Project:  New Haven Urgent Care                                 Team20
 Test Date:  12/14/2021
   Test Case ID#: 14  Name(s) of Tester(s): 
 Test Description (What are you testing? – you must be 
-specific): Does the system allow the patient to visit the urgent care more than one time?
+specific): 
+
+Does the system allow the patient to visit the urgent care more than one time?
+
+  -Test if the count of same PatID can exist more than 1 time in VISIT_RECORD
  
 NOTE:  The following information must be provided to be given credit for any test.
 Test Data (Provide the file name of the script used to insert data, provide a screen capture to reflect data, or provide script 
 here):
 SQL Query(s) used for testing:
+
 ```
 SELECT PatID,COUNT(*) AS Count_Pat
 FROM VISIT_RECORD
